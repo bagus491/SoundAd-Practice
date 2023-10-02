@@ -15,7 +15,7 @@
 }
 
 body {
-    font-family: cursive;
+    font-family: sans-serif;
 }
 
 
@@ -139,10 +139,10 @@ main {
     justify-content: center;
 }
 
-.flex-main .main-poster img{
+/* .flex-main .main-poster img{
     width: 100%;
     height: 500px;
-}
+} */
 
 .flex-main .main-poster h2 {
     position: absolute;
@@ -230,8 +230,6 @@ main {
 }
 
 .flex-main .main-pict-one .main-pict-flex-one img {
-    width: 400px;
-    height: 500px;
     position: absolute;
     margin: 25px;
 }
@@ -315,8 +313,6 @@ main {
  }
  
  .flex-main .main-pict-two .main-pict-flex-one img {
-     width: 500px;
-     height: 500px;
      position: absolute;
      margin-top: 50px;
  }
@@ -385,6 +381,7 @@ main {
     background:var(--colorFive);
     position: absolute;
     margin: 0 200px;
+
  }
 
 
@@ -393,6 +390,7 @@ main {
     padding: 20px;
     /* background: brown; */
     position: relative;
+    z-index: 1;
  }
 
  .flex-main .main-pict-flex-last .main-pict-last-pict-one img  {
@@ -406,6 +404,7 @@ main {
     padding: 20px;
     /* background: orange; */
     position: relative;
+    z-index: 1;
  }
 
  .flex-main .main-pict-flex-last .main-pict-last-pict-two img{
@@ -459,9 +458,9 @@ main {
     background: var(--colorTwo);
 }
 
-.flex-main .main-box-jobs .box-img-jobs img {
+/* .flex-main .main-box-jobs .box-img-jobs img {
     width: 80%;
-}
+} */
 
 .flex-main .main-box-jobs .box-jobs {
    flex: 30%;
@@ -525,6 +524,28 @@ footer{
     /* background: brown; */
     /* border: 1px solid black; */
 }
+
+.list-one-one  form input 
+{
+    width: 70%;
+    height: 25px;
+}
+
+.list-one-one  form button
+{
+    padding: 10px 15px 10px 15px;
+    background: var(--colorFour);
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.list-one-one:hover form button
+{
+    background: var(--colorFive);
+    transition: 1s;
+}
+
 
 .list-one-one  ul li {
     list-style: none;
